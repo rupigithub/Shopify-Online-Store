@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Components/Header";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/home";
 import Cart from "./Pages/cart";
 
 function App(){
     return(
         <>
-        <BrowserRouter>
+        <HashRouter>
         <Header/>
         <div>
             <Routes>
@@ -15,7 +15,7 @@ function App(){
                 <Route path="/cart"element={<Cart/>} />
             </Routes>
         </div>
-       </BrowserRouter>
+       </HashRouter>
         </>
     )
 }
