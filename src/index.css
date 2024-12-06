@@ -47,19 +47,18 @@ input{
 }
 
 .item-card-div{
-  height: 350px;  /*450 0r 500px for small screen */
-  width: 22.5%;   /*50% for small screen */
+  height: 450px;  
+  width: 60%;   
   padding: 5px;
   margin: 10px;
   border: 2px solid whitesmoke;
-  /* box-shadow: 0.5px 0.5px 2px ; ----> while hover over card*/ 
 }
 
 .image-div{
   padding: 5px;
-  height: 60%;
+  height: 50%;
   width: 96.5%;
-  /* border: 1px solid blue; */
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,6 +69,12 @@ input{
   height: 36%;
   /* border: 1px solid green; */
 }
+
+.descr-div>p{
+  margin: 1px;
+  padding: 1px;
+  height: 45%;
+  }
 
 .span-div{
   margin: 5px;
